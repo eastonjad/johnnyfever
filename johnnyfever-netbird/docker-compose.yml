@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: umbrel
-      APP_PORT: 3333
+      APP_PORT: 8479
 
   app:
     image: netbirdio/netbird:0.59.12@sha256:b98eb5f69423ea46ef959bcdcdf66472bd1c9d4a98bed83199fbadef95923298
